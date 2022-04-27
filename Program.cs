@@ -9,8 +9,11 @@ namespace MethodsWithLoopsAndConditionals
 
             Thousands();
             MultiplyByThree();
-            //AccountCheck(int accountOne, int accountTwo);
-            //EvenOrOdd();
+            //AccountCheck();
+            EvenOrOdd();
+            PositiveCheck();
+            //MeetsVotingAge();
+            Tens();
 
         }
 
@@ -36,6 +39,10 @@ namespace MethodsWithLoopsAndConditionals
         //Account number verifitcation tool.
         public static bool AccountCheck(int accountOne, int accountTwo)
         {
+            Console.WriteLine("Please enter your account number");
+            accountOne = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please confirm your account number");
+            accountTwo = Convert.ToInt32(Console.ReadLine());
             if (accountOne == accountTwo)
             {
                 Console.WriteLine("Your account has been verified");
@@ -59,25 +66,32 @@ namespace MethodsWithLoopsAndConditionals
             }
             else
             {
-                Console.WriteLine("You foun an odd number");
+                Console.WriteLine("You found an odd number");
             }
         }
 
         //Write a method to check whether a given number is positive or negative
-        public static bool PositiveCheck(int numberOne)
+        
+        public static void PositiveCheck()
         {
+            int num = Convert.ToInt32(Console.ReadLine());
 
-            if (numberOne > 0)
+            if (num > 0)
             {
-                return true;
+                Console.WriteLine("Positive number!");
+            }
+            else if (num < 0)
+            {
+                Console.WriteLine("Negative number!");
             }
             else
             {
-                return false;
+                Console.WriteLine("Zero!");
             }
-            
+
         }
-        
+
+
         //Write a method to read the age of a candidate and determine whether they can vote
         public static bool MeetsVotingAge(int age)
         {
@@ -92,6 +106,21 @@ namespace MethodsWithLoopsAndConditionals
                 return false;
             }
         }
+
+        //Write a method to check if an integer (from the user) is in the range -10 to 10
+        public static void Tens()
+        {
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            while (x < -10 && x < 10) 
+            {
+                Console.WriteLine("You are within range");
+            }
+
+        }
+
+        //Write a method to display the multiplication table (from 1 to 12) of a given integer
+
 
     }
 }
