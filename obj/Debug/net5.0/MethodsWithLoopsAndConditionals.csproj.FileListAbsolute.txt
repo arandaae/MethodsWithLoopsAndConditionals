@@ -1,0 +1,16 @@
+F:\Repos\MethodsWithLoopsAndConditionals\bin\Debug\net5.0\MethodsWithLoopsAndConditionals.exe
+F:\Repos\MethodsWithLoopsAndConditionals\bin\Debug\net5.0\MethodsWithLoopsAndConditionals.deps.json
+F:\Repos\MethodsWithLoopsAndConditionals\bin\Debug\net5.0\MethodsWithLoopsAndConditionals.runtimeconfig.json
+F:\Repos\MethodsWithLoopsAndConditionals\bin\Debug\net5.0\MethodsWithLoopsAndConditionals.runtimeconfig.dev.json
+F:\Repos\MethodsWithLoopsAndConditionals\bin\Debug\net5.0\MethodsWithLoopsAndConditionals.dll
+F:\Repos\MethodsWithLoopsAndConditionals\bin\Debug\net5.0\MethodsWithLoopsAndConditionals.pdb
+F:\Repos\MethodsWithLoopsAndConditionals\obj\Debug\net5.0\MethodsWithLoopsAndConditionals.csproj.AssemblyReference.cache
+F:\Repos\MethodsWithLoopsAndConditionals\obj\Debug\net5.0\MethodsWithLoopsAndConditionals.GeneratedMSBuildEditorConfig.editorconfig
+F:\Repos\MethodsWithLoopsAndConditionals\obj\Debug\net5.0\MethodsWithLoopsAndConditionals.AssemblyInfoInputs.cache
+F:\Repos\MethodsWithLoopsAndConditionals\obj\Debug\net5.0\MethodsWithLoopsAndConditionals.AssemblyInfo.cs
+F:\Repos\MethodsWithLoopsAndConditionals\obj\Debug\net5.0\MethodsWithLoopsAndConditionals.csproj.CoreCompileInputs.cache
+F:\Repos\MethodsWithLoopsAndConditionals\obj\Debug\net5.0\MethodsWithLoopsAndConditionals.dll
+F:\Repos\MethodsWithLoopsAndConditionals\obj\Debug\net5.0\refint\MethodsWithLoopsAndConditionals.dll
+F:\Repos\MethodsWithLoopsAndConditionals\obj\Debug\net5.0\MethodsWithLoopsAndConditionals.pdb
+F:\Repos\MethodsWithLoopsAndConditionals\obj\Debug\net5.0\MethodsWithLoopsAndConditionals.genruntimeconfig.cache
+F:\Repos\MethodsWithLoopsAndConditionals\obj\Debug\net5.0\ref\MethodsWithLoopsAndConditionals.dll
