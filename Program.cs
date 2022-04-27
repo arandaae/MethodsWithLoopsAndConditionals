@@ -8,11 +8,15 @@ namespace MethodsWithLoopsAndConditionals
         {
 
             Thousands();
+            Console.Read();
+            Console.Clear();
             MultiplyByThree();
-            //AccountCheck();
+            Console.Read();
+            Console.Clear();
+            AccountCheck();
             EvenOrOdd();
             PositiveCheck();
-            //MeetsVotingAge();
+            MeetsVotingAge();
             Tens();
 
         }
@@ -37,18 +41,18 @@ namespace MethodsWithLoopsAndConditionals
 
         //Write a method to accept two integers as parameters and check whether they are equal or not
         //Account number verifitcation tool.
-        public static bool AccountCheck(int accountOne, int accountTwo)
+        public static bool AccountCheck()
         {
             Console.WriteLine("Please enter your account number");
-            accountOne = Convert.ToInt32(Console.ReadLine());
+            int accountOne = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please confirm your account number");
-            accountTwo = Convert.ToInt32(Console.ReadLine());
+            int accountTwo = Convert.ToInt32(Console.ReadLine());
             if (accountOne == accountTwo)
             {
                 Console.WriteLine("Your account has been verified");
                 return true;
             }
-            else 
+            else
             {               
                 Console.WriteLine("Your account has not been verified, please try again.");
                 return false;
@@ -93,8 +97,9 @@ namespace MethodsWithLoopsAndConditionals
 
 
         //Write a method to read the age of a candidate and determine whether they can vote
-        public static bool MeetsVotingAge(int age)
+        public static bool MeetsVotingAge()
         {
+            int age = Convert.ToInt32(Console.ReadLine());
             if (age >= 18)
             {
                 Console.WriteLine($"The voter is {age} years old and meets voting age.");
@@ -112,7 +117,7 @@ namespace MethodsWithLoopsAndConditionals
         {
             int x = Convert.ToInt32(Console.ReadLine());
 
-            while (x < -10 && x < 10) 
+            if(x > -10 && x < 10) 
             {
                 Console.WriteLine("You are within range");
             }
