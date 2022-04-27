@@ -7,17 +7,35 @@ namespace MethodsWithLoopsAndConditionals
         static void Main(string[] args)
         {
 
-            Thousands();
-            Console.Read();
-            Console.Clear();
-            MultiplyByThree();
-            Console.Read();
-            Console.Clear();
-            AccountCheck();
-            EvenOrOdd();
-            PositiveCheck();
-            MeetsVotingAge();
-            Tens();
+            //Thousands();
+            //Console.Read();
+            //Console.Clear();
+
+            //MultiplyByThree();
+            //Console.Read();
+            //Console.Clear();
+
+            //AccountCheck();
+            //Console.Read();
+            //Console.Clear();
+
+            //EvenOrOdd();
+            //Console.Read();
+            //Console.Clear();
+
+            //PositiveCheck();
+            //Console.Read();
+            //Console.Clear();
+
+            //MeetsVotingAge();
+            //Console.Read();
+            //Console.Clear();
+
+            //Tens();
+            //Console.Read();
+            //Console.Clear();
+
+            //MultiplicationTable(2);
 
         }
 
@@ -99,6 +117,7 @@ namespace MethodsWithLoopsAndConditionals
         //Write a method to read the age of a candidate and determine whether they can vote
         public static bool MeetsVotingAge()
         {
+            Console.WriteLine("Are you old enough to vote?\nPlease enter your age:");
             int age = Convert.ToInt32(Console.ReadLine());
             if (age >= 18)
             {
@@ -115,17 +134,28 @@ namespace MethodsWithLoopsAndConditionals
         //Write a method to check if an integer (from the user) is in the range -10 to 10
         public static void Tens()
         {
+            Console.WriteLine("Enter a number to check if it is within range: ");
             int x = Convert.ToInt32(Console.ReadLine());
 
-            if(x > -10 && x < 10) 
+            if(x >= -10 && x <= 10) 
             {
-                Console.WriteLine("You are within range");
+                Console.WriteLine("You are within range.");
+            }
+            else
+            {
+                Console.WriteLine("You are not within range.");
             }
 
         }
 
         //Write a method to display the multiplication table (from 1 to 12) of a given integer
 
-
+        public static void MultiplicationTable(int number)
+        {
+            for (int i = 1; i < 13; i++)
+            {
+                Console.WriteLine($"{number} * {i} = {number * i}");
+            }
+        }
     }
 }
